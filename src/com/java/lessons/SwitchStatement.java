@@ -1,9 +1,9 @@
-package com.codewall.lessons;
+package com.java.lessons;
 
 public class SwitchStatement {
     public static void main(String[] args) {
 
-       /* String day ="saturday and sunday";
+       String day ="saturday and sunday";
         String str = "is weekday";
         switch (day){
             case "monday":
@@ -41,7 +41,7 @@ public class SwitchStatement {
                 break;
             default:
                 System.out.println("there is no direction");
-        }*/
+        }
         String name = "min aung hlaing";
         String job = " is a businessman";
         switch (name){
@@ -58,7 +58,24 @@ public class SwitchStatement {
                 System.out.println(name+ job);
                 break;
             default:
-                System.out.println(name+    " is an shit");
+                System.out.println(name+    "  is an shit");
+        }
+
+        String name1 = "phat lone ma";
+        String role = "  is a whore";
+        switch (name1){
+            case "phat lone ma":
+                System.out.println(name1 + role);
+                break;
+            case "model ma":
+                System.out.println(name1 + role);
+                break;
+            case "gym kg ma":
+                System.out.println(name1 + role);
+                break;
+            default:
+                System.out.println(name1 + "  is my love");
+
         }
 
 

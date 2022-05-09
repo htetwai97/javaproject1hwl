@@ -1,8 +1,8 @@
-package com.codewall.lessons;
+package com.java.lessons;
 
 public class IfStatement {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
       boolean ishorny = false;
       boolean hascondom = false;
@@ -35,6 +35,31 @@ public class IfStatement {
         }else {
             System.out.println("the condition is wrong");
         }
+
+        int a1 = 5;
+        a1 +=2;
+        int b1  = a1+2;
+
+        if (a1<b1){
+            System.out.println("the condition is true");
+        }else {
+            System.out.println("the condition is flase");
+        }
+
+        boolean israiny = false;
+        boolean hasumbrella = false;
+        String doing = "take umbrella";
+        String doing1 = "go without umbrella or go with raincoat";
+        String doing2 = "stay home";
+
+        if (israiny==true&& hasumbrella==true){
+            System.out.println(doing);
+        }else if (israiny==true|| hasumbrella==true){
+            System.out.println(doing1);
+        }else {
+            System.out.println(doing2);
+        }
+
 
     }
 }
