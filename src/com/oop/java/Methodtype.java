@@ -1,4 +1,4 @@
-package com.java.lessons;
+package com.oop.java;
 
 // access modifier, non access modifier, return type, method name(parameter), method header{}
 public class Methodtype {
@@ -21,6 +21,8 @@ public class Methodtype {
         add1();
         add1();
         add1();
+
+
     }
 
 

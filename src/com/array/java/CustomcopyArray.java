@@ -1,4 +1,4 @@
-package com.java.lessons;
+package com.array.java;
 
 public class CustomcopyArray {
     public static void main(String[] args) {
